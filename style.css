@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'digital-7-mono';
+    src: url('font/digital-7-mono.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* 수평 */
+    justify-content: center;
+    /* 수직 */
+    align-items: center;
+    /* 콘텐츠 영역을 전체로 */
+    height: 100vh;
+}
+
+.app img {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* .app {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    position: relative;
+} */
+
+.clock {
+    /* background: #999; */
+    font-family: 'digital-7-mono', monospace;
+    font-size: 100px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock p {
+    color: #939393;
+}
+
+.clock .container {
+    display: flex;
+    /* height: 140px; */
+    /* padding: 30px; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #000;
+}
