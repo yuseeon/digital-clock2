@@ -39,15 +39,15 @@ body {
 .clock {
     /* background: #999; */
     font-family: 'digital-7-mono', monospace;
-    font-size: 100px;
+    font-size: 80px;
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .clock p {
-    color: #939393;
+    color: #ccc;
 }
 
 .clock .container {
@@ -58,4 +58,8 @@ body {
     align-items: center;
     position: absolute;
     color: #000;
+}
+
+.ampm {
+    font-size: 50px;
 }

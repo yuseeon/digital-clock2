@@ -21,7 +21,16 @@ $(function(){
     }
     
     // 오전/오후 표시
-    
+
+    if(h <= 12) {
+        $('.ampm').html('am');
+    } else {
+        $('.ampm').html('pm');
+    }
+
+    if(s >= 50) {
+            s = '<span style="color: #ff0000;">'+ s +'</span>'
+        }
     
     // 시간 표시
     $('.hour').html(h);
