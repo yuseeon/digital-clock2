@@ -1,7 +1,6 @@
 ﻿# digital-clock 만들어보기
  
- 사용 언어 : HTML / CSS / JavaScript
- 이미지 편집 : Pigma
+ 사용 언어 : HTML / CSS / JavaScript || 이미지 편집 : Pigma
  
  피그마를 이용하여 편집한 알람시계 도형에다 디지털 폰트를 입힌 코드를 추가해 '아날로그 시계 형태를 가진 디지털 시계'를 만들어 보았습니다.
  
